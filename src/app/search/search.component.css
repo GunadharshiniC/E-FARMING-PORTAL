@@ -1,0 +1,25 @@
+div{
+    display:flex;
+    justify-content: center;
+     margin-bottom : 1.5rem;
+     width: 100%;
+
+  width: 100%;
+  border-right: none;
+  padding: 20px;
+  height: 80px;
+  color: #9DBFAF;
+  
+}
+.searchTerm{
+    color: brown;
+}
+.searchButton{
+   
+    border: 1px solid black;
+    background: rgb(38, 38, 113);
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}

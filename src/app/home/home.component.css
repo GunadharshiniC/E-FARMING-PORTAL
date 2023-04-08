@@ -1,0 +1,105 @@
+ul {
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+ul li a{
+ height: 27rem;
+ width: 20rem;
+ border: 1px solid whitesmoke;
+ border-radius: 1rem;
+ margin: 0.5rem;
+ display : flex;
+ flex-direction: column;
+ overflow: hidden;
+ color: brown;
+}
+li a:hover {
+    opacity : 0.9;
+    cursor: pointer;
+}
+.content {
+    padding : .4rem 1rem;
+}
+.favorite.not { 
+    color : rgb(129, 126, 126);
+}
+
+.content { 
+    padding : .5rem;
+}
+.favorite { 
+   
+    font-size: x-large;
+    top: 29.5rem;
+    
+}
+.stars {
+    margin-bottom: .2rem;
+}
+.product-item-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.origins{
+    flex : 9;
+}
+
+.origins span { 
+    border-radius: 2rem;
+    background-color: whitesmoke;
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: .3rem;
+    color: rgb(129, 126, 126);
+}
+.cook-time{
+    font-size : 1rem;
+    flex : 7rem;
+   
+}
+
+.price {
+    color : brown;
+    margin-top: .7rem;
+    
+}
+
+
+
+
+header {
+    background : white;
+    padding : 0;
+    border-bottom : 1px solid brown;
+}
+a {
+    color : darkblue; 
+}
+.logo:hover {
+    background: black;
+    color : white;
+}
+
+.container{
+    margin : 0 auto;
+    display : flex;
+    justify-content: space-between;
+}
+a.logo {
+    font-weight : bold;
+     padding : 1em;  /* 1 em is equal to the nearest font size, here in style sheet the font size is 18. so 1 em = 18px */
+}
+nav{
+    list-style-type: none;
+    margin : 0;
+
+}
+nav ul li a { 
+    padding: 1em;
+    display: inline-block;
+}

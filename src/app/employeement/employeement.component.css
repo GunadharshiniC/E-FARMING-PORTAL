@@ -1,0 +1,23 @@
+div.a{
+    
+        text-align: center;
+        background-color: beige;
+      }
+      
+.empform{
+    text-align: center;
+}
+.para{
+    text-align: justify;
+    font-variant: normal;
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.intro{
+    background-color: rgb(165, 207, 80);
+    font-weight: 500;
+    line-height: 30px;
+}
+
